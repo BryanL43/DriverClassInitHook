@@ -1,0 +1,33 @@
+# Kernighan & Ritchie format
+BasedOnStyle: LLVM
+# Indentation settings & line length
+IndentWidth: 4
+TabWidth: 4
+UseTab: Always
+ColumnLimit: 100
+# Line break settings
+AllowShortBlocksOnASingleLine: false
+AllowShortIfStatementsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: false
+BreakBeforeBraces: Custom
+# Namespace and switch tab settings
+NamespaceIndentation: All
+IndentCaseLabels: true
+# Line wrapping
+BraceWrapping:
+    AfterFunction: false
+    AfterControlStatement: false
+    AfterEnum: false
+    AfterStruct: false
+    AfterUnion: false
+    BeforeCatch: false
+    BeforeElse: false
+    BeforeWhile: false
+    IndentBraces: false
+# Line break long lines
+ContinuationIndentWidth: 4
+BreakBeforeBinaryOperators: NonAssignment
+AlignAfterOpenBracket: DontAlign
+# Prevent order of includes from changing (system damaging)
+SortIncludes: false
+IncludeBlocks: Preserve
